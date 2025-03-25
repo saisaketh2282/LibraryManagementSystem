@@ -1,37 +1,104 @@
-# LibraryManagementSystem
-Overview
+<!DOCTYPE html>
+<html>
+<head>
+<title>Library Management System</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+  }
 
-The Library Management System is a simple Java-based application designed to help librarians efficiently manage books, patrons, and the lending process. It implements key Object-Oriented Programming (OOP) principles and follows the SOLID design principles.
+  .title {
+    font-family: 'Georgia', serif;
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
 
-Features
+  .overview {
+    font-family: 'Verdana', sans-serif;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+  }
 
-Book Management: Add, remove, and search for books by title.
+  .features-title {
+    font-family: 'Times New Roman', serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
 
-Patron Management: Register new patrons and track their borrowed books.
+  .features {
+    font-family: 'Courier New', monospace;
+    margin-bottom: 20px;
+  }
 
-Lending Process: Allow patrons to borrow and return books.
+  .class-structure-title {
+    font-family: 'Impact', sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
 
-Inventory Management: Keep track of available and borrowed books.
+  .class-structure {
+    font-family: 'Lucida Console', monospace;
+    margin-bottom: 20px;
+  }
 
+  .installation-usage {
+    font-family: 'Comic Sans MS', cursive;
+    margin-bottom: 20px;
+  }
 
-Class Structure
+  .example-output-title {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
 
-Book: Represents a book with attributes like title, author, ISBN, and availability.
+  .example-output {
+    font-family: 'Roboto Mono', monospace;
+  }
+</style>
+</head>
+<body>
 
-Patron: Represents a library member with borrowed book tracking.
+<div class="title">Library Management System</div>
 
-Library: Manages books, patrons, and lending functionalities.
+<div class="overview">
+  Overview<br><br>
+  The Library Management System is a simple Java-based application designed to help librarians efficiently manage books, patrons, and the lending process. It implements key Object-Oriented Programming (OOP) principles and follows the SOLID design principles.
+</div>
 
-LibraryManagementSystem: The main class to execute the system.
+<div class="features-title">Features</div>
+<div class="features">
+  Book Management: Add, remove, and search for books by title.<br>
+  Patron Management: Register new patrons and track their borrowed books.<br>
+  Lending Process: Allow patrons to borrow and return books.<br>
+  Inventory Management: Keep track of available and borrowed books.
+</div>
 
-Installation & Usage
+<div class="class-structure-title">Class Structure</div>
+<div class="class-structure">
+  Book: Represents a book with attributes like title, author, ISBN, and availability.<br>
+  Patron: Represents a library member with borrowed book tracking.<br>
+  Library: Manages books, patrons, and lending functionalities.<br>
+  LibraryManagementSystem: The main class to execute the system.
+</div>
 
-Example Output
+<div class="installation-usage">
+  Installation & Usage
+</div>
 
-Book added: Java in 30 days
+<div class="example-output-title">Example Output</div>
+<div class="example-output">
+  Book added: Java in 30 days<br>
+  New patron registered: Vishnu<br>
+  Book checked out: Java in 30 days by Vishnu<br>
+  Book returned: Java in 30 days by Vishnu
+</div>
 
-New patron registered: Vishnu
-
-Book checked out: Java in 30 days by Vishnu
-
-Book returned: Java in 30 days by Vishnu
+</body>
+</html>
