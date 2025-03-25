@@ -29,6 +29,9 @@ Installation & Usage
 Example Output
 
 Book added: Java in 30 days
+
 New patron registered: Vishnu
+
 Book checked out: Java in 30 days by Vishnu
+
 Book returned: Java in 30 days by Vishnu
